@@ -159,7 +159,7 @@ nav {
 
 /*CONTENT*/
 .container {
-    max-width: 1000px;;
+    max-width: 1100px;
     background: white;
     padding: 20px;
     border-radius: 8px;
@@ -180,6 +180,7 @@ nav {
     justify-content: space-between;
     font-weight: bold;
     font-size: 16px;
+    margin-top: 3%;
 }
 
 .edu-details {
@@ -195,6 +196,7 @@ nav {
 
 .edu-details ul li {
     margin-bottom: 5px;
+    text-align: justify;
 }
 
 .certifications {
@@ -211,16 +213,30 @@ nav {
 }
 
 .cert-item a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #0056b3;
-}
-
-.cert-item a:hover {
     text-decoration: underline;
+    font-weight: bold;
+    color: black;
 }
 
 h7{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h8{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h9{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+b1{
     font-size: 16px;
     font-style: italic;
     font-weight: bold;
@@ -233,7 +249,22 @@ h7{
     .cert-item {
         font-size: 12px;
     }
+    .edu-header a{
+        font-size: 12px;
+    }
+    b{
+        font-size: 12px;
+    }
     h7{
+        font-size: 12px;
+    }
+    h8{
+        font-size: 12px;
+    }
+    h9{
+        font-size: 12px;
+    }
+    b1{
         font-size: 12px;
     }
     .edu-details ul li {
@@ -270,20 +301,6 @@ h7{
     text-decoration: none;
     font-size: 15px;
     font-family: 'Poppins';
-}
-
-.bottom-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #1d2d44;
-    display: block;
-    margin: auto;
-    transition: 0.3s;
-}
-
-.bottom-links ul li:hover::after{
-    width: 100%;
 }
 
 @media(max-width: 700px){
